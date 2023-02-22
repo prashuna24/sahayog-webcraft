@@ -1,0 +1,9 @@
+	var nav = document.getElementById('nav-links');
+
+	function showmenu(){
+		nav.style.right="0";
+	}
+
+	function hidemenu(){
+		nav.style.right="-200px";
+	}
